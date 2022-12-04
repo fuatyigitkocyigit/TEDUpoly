@@ -44,7 +44,7 @@ public class Player extends JPanel {
 			this.setBounds(30, 33, 20, 28);
 			
 		}
-		else {//oyuncuNumarasİ==2
+		else {//oyuncuNumarasÃ==2
 			this.setBounds(60, 33, 20, 28);
 			
 		}
@@ -58,7 +58,7 @@ public class Player extends JPanel {
 				this.ArtiIslem(maas, this);
 			}
 			
-			this.KonumNo = (this.KonumNo + zartotalA)%20;
+			this.KonumNo = (this.KonumNo)%20;
 			
 			int targetSquare = (KonumNo + zartotalA) % 20;
 			KonumNo = targetSquare;
@@ -275,16 +275,16 @@ public class Player extends JPanel {
 		return NotToplami;
 	}
 
-	public void setNotToplami(double notToplamı) {
-		NotToplami = notToplamı;
+	public void setNotToplami(double notToplamÃ½) {
+		NotToplami = notToplamÃ½;
 	}
 
-	public int getOyuncutursayısı() {
+	public int getOyuncutursayÃ½sÃ½() {
 		return oyuncutursayisi;
 	}
 
-	public void setOyuncutursayısı(int oyuncutursayısı) {
-		this.oyuncutursayisi = oyuncutursayısı;
+	public void setOyuncutursayÃ½sÃ½(int oyuncutursayÃ½sÃ½) {
+		this.oyuncutursayisi = oyuncutursayÃ½sÃ½;
 	}
 
 	public Boolean getDonduMu() {
